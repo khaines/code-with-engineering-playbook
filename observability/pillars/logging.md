@@ -35,3 +35,11 @@ Logs are discrete events with the goal of helping engineers identify problem are
 **Per outgoing request**:
 
 - Basic information for each outgoing request: the url (scrubbed of any personally identifying data, a.k.a. PII), any user/tenant/request dimensions, response code returned, request-to-response latency, payload sizes, record counts returned, etc. Report perceived availability and latency of dependencies and including slicing/clustering data that could help with later analysis.
+
+### Recommended Tools
+
+- [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/overview) - Umbrella of services including system metrics, log analytics and more.
+- [ELK Stack](https://www.elastic.co/observability) - Use Elasticsearch and its related tools to collect, process and analyse logs and other data.
+- [Grafana Loki](https://grafana.com/oss/loki/) - Horizontally-scable log aggregation system, focusing on cost-efficient storage and operation.
+- [Fluent Bit](https://fluentbit.io/) - Small footprint log collection/forwarding agent. Outputs to multiple logging platform, including those in this list.
+- [Grafana](https://grafana.com/) - The defacto standard in visualization tools for logs & metrics.

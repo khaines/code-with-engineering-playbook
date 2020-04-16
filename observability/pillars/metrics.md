@@ -33,3 +33,11 @@ Modern metric systems today usually define a single time series metric as the co
 - Azure Region
 
 _Note_: Since dimension labels are used for aggregations and grouping operations, do not use unique strings or those with high cardinality as the value of a label. The value of the label is significantly diminished for reporting and in many cases has a negative performance hit on the metric system used to track it.
+
+### Recommended Tools
+
+- [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/overview) - Umbrella of services including system metrics, log analytics and more.
+- [Prometheus](https://prometheus.io/) - Real time monitoring & multi-dimensional time-series database.
+- [Cortex](https://cortexmetrics.io/) - Horizontally scalable, central data collection & storage for Prometheus.
+- [Thanos](https://github.com/thanos-io/thanos) - Cloud storage backend for Prometheus.
+- [Grafana](https://grafana.com/) - The defacto standard in visualization tools for logs & metrics.
