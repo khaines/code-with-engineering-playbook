@@ -11,12 +11,17 @@ Building observable systems enables development teams at CSE to measure how well
 
 ## Sections
 
-- [Pillars of Observability](#pillars-of-observability)
-- [Recommended Practices](#recommended-practices)
-- [Pitfalls to Avoid](#pitfalls-to-avoid)
-- [Recommended Tools and Approaches](#recommended-tools-and-approaches)
-- [Tools](#tools)
-- [Recipes](#recipes)
+- [Observability](#observability)
+  - [Goals](#goals)
+  - [Sections](#sections)
+  - [Pillars of Observability](#pillars-of-observability)
+  - [Recommended Practices](#recommended-practices)
+  - [Pitfalls to avoid](#pitfalls-to-avoid)
+    - [Collection](#collection)
+      - [1. Agent:](#1-agent)
+      - [2. SDK:](#2-sdk)
+      - [3. SDK-Agent:](#3-sdk-agent)
+  - [Recipes](#recipes)
 
 ## Pillars of Observability
 
@@ -36,14 +41,6 @@ Building observable systems enables development teams at CSE to measure how well
 ## Pitfalls to avoid
 
 Read more [here](pitfalls.md) to understand what to watch out for while designing and building an observable system.
-
-## Recommended Tools and Approaches
-
-### Tools
-
-1. [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/overview) - Umbrella of services including system metrics, log analytics and more.
-2. [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) - An extensible Application Performance Management (APM) service used to monitor live applications, and a feature of inside Azure Monitor.
-3. [Azure Log Analytics](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/log-query-overview) - Run advanced queries against the data collected via Azure Monitor Logs.
 
 ### Collection
 
